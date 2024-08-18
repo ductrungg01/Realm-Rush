@@ -16,17 +16,20 @@ public class CoordinateLabeler : MonoBehaviour
 
     void Update()
     {
-        if (!Application.isPlaying)
-        {
-            DisplayCoordinate();
-            DisplayObjectName();
-        }       
+        //if (!Application.isPlaying)
+        //{
+        //    DisplayCoordinate();
+        //    DisplayObjectName();
+        //}
+
+        DisplayCoordinate();
+        DisplayObjectName();
     }
 
     private void DisplayCoordinate()
     {
         coordinate.x = Mathf.RoundToInt(transform.parent.transform.position.x / UnityEditor.EditorSnapSettings.move.x);
-        coordinate.y = Mathf.RoundToInt(transform.parent.transform.position.y / UnityEditor.EditorSnapSettings.move.y);
+        coordinate.y = Mathf.RoundToInt(transform.parent.transform.position.z / UnityEditor.EditorSnapSettings.move.z);
 
         label.text = $"{coordinate.x}:{coordinate.y}";
     }
