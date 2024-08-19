@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2981909181299227948}
   - component: {fileID: 7185746566466660122}
   - component: {fileID: 2693838572685924228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ GameObject:
   - component: {fileID: 8798939150210633940}
   - component: {fileID: 4791015653792540767}
   - component: {fileID: 2881052247030794195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,10 +254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c5834e43af7a1c4592bd3d29566cb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {r: 0.9895674, g: 1, b: 0, a: 1}
-  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  exploredColor: {r: 0, g: 0, b: 1, a: 1}
-  pathColor: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &5600760465488816645
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +265,7 @@ GameObject:
   - component: {fileID: 3679382098606373182}
   - component: {fileID: 2006606358987604084}
   - component: {fileID: 3097737650507621600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
