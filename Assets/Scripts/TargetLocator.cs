@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class TargetLocator : MonoBehaviour
 {
@@ -44,6 +45,8 @@ public class TargetLocator : MonoBehaviour
 
     private void AimWeapon()
     {
+        if (target == null) return;
+
         float distance = Vector3.Distance (transform.position, target.transform.position);
 
         Attack(distance <= attackRange);
