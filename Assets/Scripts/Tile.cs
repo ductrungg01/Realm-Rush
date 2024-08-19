@@ -23,7 +23,7 @@ public class Tile : MonoBehaviour
     {
         coordinates = gridManager.GetCoordinatesFromPosition(transform.position);
 
-        if (!isPlaceable ) 
+        if (!isPlaceable) 
             gridManager.BlockNode(coordinates);
     }
 
