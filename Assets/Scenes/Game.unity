@@ -19399,7 +19399,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 4113891090435208625, guid: aeeb78577fcb0ec4ca3c05b90c2cbee7, type: 3}
   parentInHierachy: {fileID: 618412769}
   delayTime: 2
-  poolSize: 0
+  poolSize: 10
 --- !u!114 &1298450388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22759,7 +22759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8dc3bec5db6eb14b83f6e1d467271aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startBalance: 150
+  startBalance: 5000
   balanceText: {fileID: 2063861917}
 --- !u!4 &1493466485
 Transform:
